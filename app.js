@@ -16,8 +16,8 @@ rbxbtn.addEventListener("click", () => {
   } else {
     box1.style.display = "none";
     box2.style.display = "block";
-    setTimeout(showbox2, 4500);
-    setTimeout(showbox3, 4500);
+    setTimeout(showbox2, 2500);
+    setTimeout(showbox3, 2500);
   }
 
   useroutput.innerHTML = `Searching for <b>${username.value}</b> ...`;
