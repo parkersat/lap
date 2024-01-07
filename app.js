@@ -31,7 +31,7 @@ rbxtotal.forEach((btn) => {
 
     setTimeout(showboxagain, 2500);
     setTimeout(showbox4, 2500);
-    useroutput.innerHTML = `Ordering Robux for <b>${username.value}</b>...`;
+    useroutput.innerHTML = `Sending Robux for <b>${username.value}</b>...`;
   });
 });
 
